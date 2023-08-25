@@ -33,6 +33,7 @@ public class ProbandoCancion {
         System.out.println("*****************");
         cancion2.imprimirCanciones();
         System.out.println(cancion1);
+        System.out.println(cancion2);
         
     }
     
