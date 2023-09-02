@@ -14,7 +14,7 @@ public class Solicitud {
     private int numero,total;
     private Date fecha;
     private Cliente cliente;
-    private String productos;
+    private String productos = "";
 
     public Solicitud() {
     }

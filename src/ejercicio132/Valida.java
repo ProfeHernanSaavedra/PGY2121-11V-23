@@ -77,6 +77,7 @@ public class Valida {
     {
         Date fecha = new Date();
         if (fechaSolicitud.compareTo(fecha) <= 0) {
+            
             return true;
         } else {
             return false;
