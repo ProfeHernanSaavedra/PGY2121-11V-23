@@ -93,11 +93,12 @@ public class Cancion {
         
         minutos = this.tiempoDuracion / 60;
         segundos = this.getTiempoDuracion() - minutos *60;
-        
+        System.out.println("*********************");
         System.out.println("Cancion: " + this.getTitulo());
         //System.out.println("Cancion: " + this.titulo);
         System.out.println("Artista: " + this.getArtista());
         System.out.println("Duracion: " + minutos +":"+segundos);
+        System.out.println("**********************\n");
     }
     
     public String obtenerTipoCancion()
