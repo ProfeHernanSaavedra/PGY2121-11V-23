@@ -27,7 +27,7 @@ public class Empresa {
     {
         //fore+tab
         for (Empleado empleado : listaEmpleado) {
-            if (empleado.getRut().equals(rut)) {
+            if (empleado.getRut().equals(rut)) { // contrario --> !empleado.getRut().equals(rut)
                 return true;
             }
         }
@@ -51,7 +51,7 @@ public class Empresa {
     public void listarEmpleado()
     {
         for (Empleado empleado : listaEmpleado) {
-            System.out.println(empleado);
+            System.out.println(empleado.getNombre() + " ," + empleado.getPuesto().getNombrePuesto());
         }
     }
     
