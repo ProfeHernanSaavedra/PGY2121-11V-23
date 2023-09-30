@@ -41,7 +41,11 @@ public class Television extends Interes implements ILike{
     public void almacenarLikes() {
         System.out.println("Cantidad de Likes: " + super.like);
         System.out.println("Tiempo Conectado: "  + super.getTiempoConectado());
+       // double valor = ILike.IVA * 100;
+        
     }
+
+    
     
     
 }

@@ -28,7 +28,7 @@ public class Musica extends Interes implements ILike{
 
     @Override
     public String toString() {
-        return "Musica{" + "tipoMusica=" + tipoMusica + '}' + " " + super.toString();
+        return "Musica{" + "tipoMusica=" + tipoMusica + '}' + super.toString();
     }
     
     public void listar()

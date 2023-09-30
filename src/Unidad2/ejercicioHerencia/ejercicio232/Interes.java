@@ -5,7 +5,7 @@ package Unidad2.ejercicioHerencia.ejercicio232;
  *
  * @author 
  */
-public abstract class Interes {
+public abstract  class Interes {
     
     protected String usuario,password;
     protected int tiempoConectado; //minutos o segundos

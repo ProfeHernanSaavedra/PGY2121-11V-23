@@ -32,29 +32,65 @@ public class Coleccion {
         int mayor = 0;
         String claseInteres = "";
         for (Interes interes : listaIntereses) {
-            if (interes.getLike()>0) {
+            if (interes.getLike()>mayor) {
                 mayor = interes.getLike();
                 claseInteres = interes.getClass().getName();
+                
             }
+            
         }
-//        System.out.println("El mayor iteres con mas likes es:"+ claseInteres);
+        //System.out.println(mayor);
+        //System.out.println("El mayor iteres con mas likes es:"+ claseInteres);
+        
         
         
         switch (claseInteres) {
+                    
             case "Unidad2.ejercicioHerencia.ejercicio232.RedSocial":
-                System.out.println("El mayor interes con mas likes es: Red Social");
+                System.out.print("El mayor interes con mas likes es: Red Social");
                 break;
             case "Unidad2.ejercicioHerencia.ejercicio232.Television":
-                System.out.println("El mayor interes con mas likes es: Television");
+                System.out.print("El mayor interes con mas likes es: Television");
                 break;
             case "Unidad2.ejercicioHerencia.ejercicio232.Musica":
-                System.out.println("El mayor interes con mas likes es: Musica");
+                System.out.print("El mayor interes con mas likes es: Musica");
+                break;
+            
+        } 
+    }
+    
+   public void masTiempoConectado()
+    {
+        int mayor = 0;
+        String claseInteres = "";
+        for (Interes interes : listaIntereses) {
+            if (interes.getTiempoConectado()>mayor) {
+                mayor = interes.getTiempoConectado();
+                claseInteres = interes.getClass().getName();
+                
+            }
+            
+        }
+        //System.out.println(mayor);
+        //System.out.println("El mayor iteres con mas likes es:"+ claseInteres);
+        
+        
+        
+        switch (claseInteres) {
+                    
+            case "Unidad2.ejercicioHerencia.ejercicio232.RedSocial":
+                System.out.println(" y El mayor tiempo conectado es: Red Social");
+                break;
+            case "Unidad2.ejercicioHerencia.ejercicio232.Television":
+                System.out.println(" y El mayor tiempo conectado es: Television");
+                break;
+            case "Unidad2.ejercicioHerencia.ejercicio232.Musica":
+                System.out.println(" y El mayor tiempo conectado es: Musica");
                 break;
             
         }
         
         
     }
-    
     
 }
